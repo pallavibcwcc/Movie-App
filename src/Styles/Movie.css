@@ -1,0 +1,59 @@
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.movie-card {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.2s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.movie-card:hover {
+  transform: scale(1.03);
+}
+
+.poster-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+h2{
+    color: black;
+}
+p{
+     color: black;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+  gap: 10px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  max-width: 500px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  box-shadow: 0 0 0 2px #007BFF44; /* Light blue focus ring */
+}
